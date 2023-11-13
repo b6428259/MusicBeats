@@ -1,0 +1,84 @@
+.fixed-nav {
+    justify-content: flex-start;
+    background-color: $white;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    line-height: 75px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 2;
+
+    /* Additional styles for the navbar */
+  }
+
+  @media screen and (max-width: 1415px) {
+    .fixed-nav {
+      display: none;
+    }
+    .fakenav {
+      display: none;
+    }
+  }
+  
+  .navbar-hidden {
+    top: -80px; /* Set the navbar height here */
+  }
+  
+.NavLogo {
+    color: $primary_black;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 200px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+  }
+  
+  .NavMenuPosition {
+    margin-left: 30px;
+    width: 12;
+  
+  }
+  
+  .NavMenu {
+    color: $primary_black;
+    text-decoration: none;
+    margin: 0 50px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .NavMenu:hover {
+    color: $primary_black;
+    text-decoration: none;
+    margin: 0 50px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    align-items: center;
+    align-content: center;
+    //hover effect
+    border-bottom: 2px solid $primary_red;
+    padding-bottom: 15px;
+    width: 30px;
+  
+  }
+  
+  .NavSearch {
+    color: $primary_black;
+    text-decoration: none;
+    margin-right: 270px;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .NavIcon {
+    margin-left: 15px;
+    cursor: pointer;
+  }

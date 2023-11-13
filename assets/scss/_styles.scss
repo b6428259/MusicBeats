@@ -1,0 +1,160 @@
+.btn-12-learn {
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    margin: 20;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn-12-learn:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    background: crimson;
+    left: 45%;
+    height: 2px;
+    bottom: 0;
+    transition: all .3s;
+    opacity: 0.7;
+}
+
+.btn-12-learn:hover:before {
+    width: 100%;
+    left: 0;
+}
+
+.fade {
+    margin: 50px;
+    padding: 50px;
+    background-color: lightgreen;
+    opacity: 1;
+}
+
+.banny-container {
+    position: relative;
+    text-align: left;
+    line-height: 0;
+    font-family: "default-5";
+    transition: opacity 0.5s;
+    opacity: 0;
+
+
+}
+
+.banny-container.show {
+    opacity: 1;
+
+}
+
+
+.banny-container .banner-text {
+    color: $primary_black;
+    font-size: 3.5rem;
+    position: absolute;
+    bottom: 30%;
+    left: 4.5%;
+    line-height: 150%;
+    margin-top: 350px;
+}
+
+.banny-container .btnContainer {
+    position: absolute;
+    margin-top: 350px;
+
+}
+
+.banny-container .bBtn1 {
+    content: "";
+    color: black;
+    background-color: black;
+    border-radius: 50px;
+    left: 1%;
+}
+
+.banny-container .bBtn1:after {
+    background-color: white;
+
+}
+
+.banny-container .bBtn2 {
+    content: "";
+    opacity: 1;
+    border: 1px solid white;
+    color: white;
+}
+
+@media screen and (max-width: 1440px) {
+    .banny-container .btnContainer {
+        left: -1%;
+        top: 43%;
+    }
+
+    .lp-title {
+        padding-left: 20px;
+
+    }
+    .banny-container .banner-text{ 
+        top: 15%;
+    }
+
+
+}
+
+@media screen and (max-width: 1205px) {
+    .banny-container .bBtn1 {
+        left: 0.5%;
+        top: -15%;
+    }
+
+    .lp-title {
+        padding-left: 20px;
+
+    }
+    .banny-container .banner-text{ 
+        top: -15%;
+    }
+
+}
+
+@media screen and (max-width: 1205px) {
+    .banny-container .btnContainer {
+        display: none;
+    }
+
+    .lp-title {
+        padding-left: 20px;
+
+    }
+    .banny-container .banner-text{ 
+        top: -15%;
+    }
+
+}
+
+
+.lp-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 0.83 !important;
+    letter-spacing: -1px;
+    padding-left: 2px;
+    padding-bottom: 9px;
+    padding-top: 80px;
+    color: white;
+}
+
+.lp-subtitle {
+    color: white;
+    padding-top: 5px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 0.83 !important;
+    letter-spacing: -1px;
+}

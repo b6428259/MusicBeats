@@ -1,0 +1,1 @@
+.btn-12-learn{text-align:center;display:inline-block;padding:5px;cursor:pointer;letter-spacing:2px;position:relative;overflow:hidden;margin:20;font-weight:700;font-size:18px}.btn-12-learn:before{content:"";position:absolute;width:0;background:#dc143c;left:45%;height:2px;bottom:0;transition:all .3s;opacity:.7}.btn-12-learn:hover:before{width:100%;left:0}
