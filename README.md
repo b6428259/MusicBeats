@@ -36,7 +36,7 @@ The expected outcome is a visually appealing webpage with a design inspired by [
 1. Clone the repository:
 
    ```bash
-   git clone [[[repository_url]](https://github.com/b6428259/MusicBeats)]
+   git clone github.com/b6428259/MusicBeats
    ```
 
 2. Open the `index.html` file in a web browser.
