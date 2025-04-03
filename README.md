@@ -46,7 +46,7 @@ The expected outcome is a visually appealing webpage with a design inspired by [
 ## Contributors
 
 - [Ronnasit Tuayton]
-- [Kunthidak Klongkhlaew]
+- [Kunthida Klongkhlaew]
 
 Feel free to contribute or provide feedback!
 
